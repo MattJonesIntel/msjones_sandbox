@@ -1,6 +1,4 @@
-# msjones
-
-<h3 align="center">Matt's Repo</h3>
+# Matt's Repo
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
