@@ -3,6 +3,12 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+# Feature vector
+x = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])
+
+# Response vector
+y = np.array([1, 3, 2, 5, 7, 8, 8, 9, 10, 12, 11, 13, 15, 15, 14, 16])
+
 def get_coef(x, y):
     
     # Number of data points
@@ -39,12 +45,6 @@ def plot_line(x, y, b_0, b_1):
     
     plt.show()
     
-# Feature vector
-x = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
-
-# Response vector
-y = np.array([1, 3, 2, 5, 7, 8, 8, 9, 10, 12])
-
 # estimating coefficients
 (b_0, b_1) = get_coef(x, y)
 print("Coefficients:\nb_0 = {} \nb_1 = {}".format(b_0, b_1))
